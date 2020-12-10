@@ -13,6 +13,22 @@ body{
 }
 
 /*Universal Setting*/
+@font-face {
+    font-family: oldEnglish;
+    src: url("./font/Olde English Regular.ttf");
+}
+
+.fontOldEnglish{
+    font-family: oldEnglish;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.fontArial{
+    font-family: Arial;
+    font-size: 11pt;
+}
+
 .mh-1{ min-height: 50px; }
 .mh-2{ min-height: 75px; }
 .mh-3{ min-height: 100px; }
@@ -151,6 +167,7 @@ body{
 .mr-2{ margin-right: 2px;}
 .mr-1{ margin-right: 1px;}
 
+.mt-30{ margin-top: 30px;}
 .mt-25{ margin-top: 25px;}
 .mt-20{ margin-top: 20px;}
 .mt-15{ margin-top: 15px;}
@@ -177,6 +194,12 @@ body{
 .mx-3{ margin: 0 3px;}
 .mx-2{ margin: 0 2px;}
 .mx-1{ margin: 0 1px;}
+
+.my-5{ margin: 5px 0;}
+.my-4{ margin: 4px 0;}
+.my-3{ margin: 3px 0;}
+.my-2{ margin: 2px 0;}
+.my-1{ margin: 1px 0;}
 
 .negmartop{ margin-top: -40px;}
 .negmartopsuper{ margin-top: -90px;}
