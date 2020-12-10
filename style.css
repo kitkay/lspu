@@ -20,14 +20,17 @@ body{
 
 .fontOldEnglish{
     font-family: oldEnglish;
-    font-size: 12pt;
-    font-weight: bold;
+    font-size: 14pt;
 }
 
 .fontArial{
     font-family: Arial;
     font-size: 11pt;
 }
+
+.font10{ font-size: 10pt !important;}
+.font11{ font-size: 11pt !important;}
+.font16{ font-size: 16pt !important;}
 
 .mh-1{ min-height: 50px; }
 .mh-2{ min-height: 75px; }
@@ -86,6 +89,23 @@ body{
 .border-table2 tr{ border: solid thin; }
 /*End of table 2 design*/
 
+/*Settings for table 3 design*/
+.border-table3{ border: solid thin; border-collapse: collapse; }
+
+.border-table3 td, .border-table3 th {
+    border: solid thin;  border-style: none solid;
+    white-space: nowrap;  padding: 1px;
+}
+
+.border-table3 tr:last-child{
+    border: solid thin; }
+
+.border-table3 th {
+    border: solid thin; border-style: solid thin;
+    vertical-align: top; white-space: nowrap;
+}
+/*End of table 3 design settigns*/
+
 
 .text-justify{ text-align: justify; }
 
@@ -97,7 +117,7 @@ body{
 .border-no-y{ border-top: none !important; border-bottom: none !important;  }
 
 .border-all{  border: 1px solid #000;  }
-.border-top{ border-top: solid thin;}
+.border-top{ border-top: solid thin !important;}
 .border-left{ border-left: solid thin;}
 .border-right{ border-right: solid thin;}
 .border-bottom{border-bottom: 1px solid #000 !important;  }
@@ -217,6 +237,9 @@ body{
 .justify-between{ justify-content: space-between; }
 .justify-around{ justify-content: space-around; }
 .justify-end{ justify-content: flex-end; }
+
+.aligncenter{ align-content: center; }
+
 /*End of Universal setting*/
 
 /*Start of Header*/
