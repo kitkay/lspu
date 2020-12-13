@@ -28,8 +28,12 @@ body{
     font-size: 11pt;
 }
 
+.font8{ font-size: 8pt !important;}
 .font10{ font-size: 10pt !important;}
 .font11{ font-size: 11pt !important;}
+.font12{ font-size: 12pt !important;}
+.font13{ font-size: 13pt !important;}
+.font14{ font-size: 14pt !important;}
 .font16{ font-size: 16pt !important;}
 
 .mh-1{ min-height: 50px; }
@@ -115,6 +119,7 @@ body{
 .border-no-top{ border-top: 0 !important; }
 .border-no-sides{ border-left: none !important; border-right: none !important;  }
 .border-no-y{ border-top: none !important; border-bottom: none !important;  }
+.border-empty{ border: none !important; }
 
 .border-all{  border: 1px solid #000;  }
 .border-top{ border-top: solid thin !important;}
@@ -203,6 +208,7 @@ body{
 .mt-1{ margin-top: 1px;}
 
 .mb-15{ margin-bottom: 15px;}
+.mb-10{ margin-bottom: 10px;}
 .mb-5{ margin-bottom: 5px;}
 .mb-4{ margin-bottom: 4px;}
 .mb-3{ margin-bottom: 3px;}
@@ -223,6 +229,16 @@ body{
 
 .negmartop{ margin-top: -40px;}
 .negmartopsuper{ margin-top: -90px;}
+
+.indent1{ text-indent: 10pt; }
+.indent2{ text-indent: 20pt; }
+.indent3{ text-indent: 30pt; }
+.indent4{ text-indent: 40pt; }
+.indent5{ text-indent: 50pt; }
+.indent6{ text-indent: 60pt; }
+.indent7{ text-indent: 70pt; }
+.indent8{ text-indent: 80pt; }
+.indent9{ text-indent: 90pt; }
 
 .text-center{ text-align: center;}
 .text-left{ text-align: left;}
