@@ -122,6 +122,7 @@ body{
 .border-empty{ border: none !important; }
 
 .border-all{  border: 1px solid #000;  }
+.border-all2{  border: 2px solid #000;  }
 .border-top{ border-top: solid thin !important;}
 .border-left{ border-left: solid thin;}
 .border-right{ border-right: solid thin;}
