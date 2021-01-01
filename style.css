@@ -18,6 +18,11 @@ body{
     src: url("./font/Olde English Regular.ttf");
 }
 
+@font-face {
+    font-family: ArialNarrow;
+    src: url("./font/ARIALN.TTF");
+}
+
 .fontOldEnglish{
     font-family: oldEnglish;
     font-size: 14pt;
@@ -26,6 +31,10 @@ body{
 .fontArial{
     font-family: Arial;
     font-size: 11pt;
+}
+
+.fontArialNarrow{
+    font-family: ArialNarrow;
 }
 
 .font7{ font-size: 7pt !important;}
